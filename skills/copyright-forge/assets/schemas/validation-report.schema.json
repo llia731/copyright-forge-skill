@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["status", "blockers", "warnings"],
+  "properties": {
+    "status": {"enum": ["DRAFT", "NEEDS_CONFIRMATION", "VALIDATED", "NEEDS_FIX", "READY", "NOT_READY"]},
+    "blockers": {"type": "array"},
+    "warnings": {"type": "array"},
+    "info": {"type": "array"}
+  }
+}

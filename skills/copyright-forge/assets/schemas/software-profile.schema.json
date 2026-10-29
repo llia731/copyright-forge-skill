@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Copyright Forge Software Profile",
+  "type": "object",
+  "required": ["schema_version", "software", "applicant", "copyright", "dates", "status"],
+  "$defs": {
+    "resolvedField": {
+      "type": "object",
+      "required": ["value", "source", "confidence", "requires_confirmation", "status"],
+      "properties": {
+        "value": {},
+        "source": {"type": "array", "items": {"type": "string"}},
+        "confidence": {"enum": ["low", "medium", "high"]},
+        "requires_confirmation": {"type": "boolean"},
+        "status": {"enum": ["inferred", "requires_confirmation", "confirmed"]}
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {"const": "2.0"},
+    "software": {
+      "type": "object",
+      "required": ["full_name", "short_name", "version"],
+      "properties": {
+        "full_name": {"$ref": "#/$defs/resolvedField"},
+        "short_name": {"$ref": "#/$defs/resolvedField"},
+        "version": {"$ref": "#/$defs/resolvedField"}
+      }
+    },
+    "applicant": {"$ref": "#/$defs/resolvedField"},
+    "copyright": {"type": "object"},
+    "dates": {"type": "object"},
+    "technology": {"type": "object"},
+    "features": {"type": "array", "items": {"type": "string"}},
+    "status": {"type": "object"}
+  }
+}

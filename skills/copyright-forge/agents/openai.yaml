@@ -1,0 +1,4 @@
+interface:
+  display_name: "Copyright Forge"
+  short_description: "基于真实项目准备和审核中国软著材料"
+  default_prompt: "帮我给当前项目准备一套软件著作权材料。请先分析项目，只向我确认确实无法从项目判断的事实。"
