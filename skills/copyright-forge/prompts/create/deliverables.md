@@ -1,5 +1,7 @@
 # Deliverables Builder
 
+Before drafting or reviewing user-facing Chinese material, read `references/13-writing-style.md` and `references/06-document-rules.md`. Apply the writing guidance to all prose deliverables and run a language review before final export. This review checks factual support, clarity, redundancy, empty promotional language, unnecessary number-label headings, and misuse of slashes; preserve source code, technical identifiers, paths, URLs, quotations, and required terminology unchanged.
+
 After facts are locked, create a clearly numbered package in the task output
 directory. Use the profile as the sole identity source and cite feature graph
 evidence while drafting.

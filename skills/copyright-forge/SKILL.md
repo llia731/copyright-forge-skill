@@ -25,6 +25,7 @@ make the user name a mode or know internal files.
 | E. Rules | 检查规则更新、规则有什么变化 | `prompts/rules-update/workflow.md` |
 
 Always read `references/quality-guardrails.md`.
+For any generation, revision, correction, or review of Chinese-facing materials, always read `references/13-writing-style.md` and apply it during drafting and final content review.
 Always read `prompts/shared/guardrails.md` and
 `prompts/shared/user-communication.md`. Read the mode-specific files only for
 the selected route. `references/official/source-registry.yaml` is the source

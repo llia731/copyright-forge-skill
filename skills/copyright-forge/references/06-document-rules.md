@@ -1,5 +1,7 @@
 # Documentation Rules
 
+All Chinese-facing documentation must also follow `13-writing-style.md`: clear, direct, objective, evidence-backed wording rather than promotional or generic AI-style prose. Review writing quality after drafting and before rendering DOCX/PDF.
+
 Choose the document by product type: user manual for UI software; function or
 design documentation for APIs, SDKs, and services; operation guidance for CLI.
 Use a concise dynamic structure: overview, purpose and scope, environment,

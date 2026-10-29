@@ -1,5 +1,7 @@
 # Guardrails
 
+- For all Chinese-facing documentation and prose revisions, apply `references/13-writing-style.md` and check the final draft. Keep wording concise, specific, natural, and supported by code evidence; do not alter source code or technical identifiers to satisfy writing style.
+
 - Never invent functions, source code, screenshots, ownership, development
   relationships, publication facts, confirmed dates, or official requirements.
 - Inspect project structure, metadata, documentation, source, configuration,
