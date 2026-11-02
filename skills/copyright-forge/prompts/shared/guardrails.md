@@ -19,3 +19,7 @@
 - Complex ownership or deposit cases do not stop technical work. Continue with
   evidence, documentation, and source preparation, while clearly isolating the
   contract, rights-chain, or submission facts requiring human review.
+
+- Distinguish statutory filing materials from optional engineering activities. Production deployment, real business databases, and benchmark scores are not universal registration preconditions.
+- When the applicant reports a currently implemented feature missing from a previously supplied source snapshot, record the statement and request the corresponding code version before claiming the old deposit already contains it.
+- Never assert that AI was not used if AI contributed to code, documentation, or application drafts; verify the actual current application statements before signing.
