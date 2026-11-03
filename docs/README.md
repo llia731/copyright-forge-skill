@@ -10,7 +10,7 @@
 技能内部还包括：
 
 - [技能入口](../skills/copyright-forge/SKILL.md)
-- [登记材料与工程验收边界](../skills/copyright-forge/references/14-submission-readiness.md)
+- [后台服务设计说明书、程序化制图与源码追溯](../skills/copyright-forge/references/15-backend-diagrams-and-traceability.md)\n- [登记材料与工程验收边界](../skills/copyright-forge/references/14-submission-readiness.md)
 - [中文写作规范](../skills/copyright-forge/references/13-writing-style.md)
 - [官方来源索引](../skills/copyright-forge/references/official/source-registry.yaml)
 - [通用申请核查模板](../skills/copyright-forge/assets/templates/filing-readiness-register.md)

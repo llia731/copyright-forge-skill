@@ -12,3 +12,5 @@ Screenshots must be supplied by the user, found in project documentation, or
 captured from an actually running project. Do not generate illustrative product
 screenshots. When no real screenshot is available, use a text-only document or
 mark the screenshot as pending.
+
+For API-only or back-end services, read `15-backend-diagrams-and-traceability.md`. Use programmatic diagrams with source files, add interface tables and source paths when supported, and do not invent UI screenshots. Distinguish the software's business purpose from a list of technical components.

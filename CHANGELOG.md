@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-03 — Backend documentation and diagram tooling
+
+- Add source-based guidance for API-only services, reusable business capabilities, diagrams, and code-page traceability.
+- Add a small Graphviz renderer for SVG, PNG and PDF with SHA256 manifest and regression tests.
+- Preserve generic repository scope; no company-specific application materials or secrets were added.
+
+
 ## 2026-11-02 — Repository documentation and scope
 
 - Clarify public Skill and private filing-project boundaries, file navigation, and maintenance scope.

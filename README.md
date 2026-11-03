@@ -58,6 +58,16 @@ copyright-forge-skill/
 - 交存源程序与文档应检查实际页数、代码行数、版式、安全和版本一致性；自动检查通过不等于官方受理。
 - AI 参与代码、文档或申报材料时必须如实保留事实，不以改写文风代替诚信声明核查。
 
+## 后台软件技术图件
+
+对 API、中台、模型服务等没有独立图形界面的软件，优先编写设计说明书，不虚构登录界面或业务截图。采用 Graphviz 等工具按真实模块与接口关系生成架构图、流程图并保留源文件、SVG、PNG 和校验信息。
+
+```bash
+python skills/copyright-forge/scripts/render_diagrams.py --dot example.dot --output-dir output/figures --formats svg,png
+```
+
+完整做法见 [后台设计说明书与制图追溯规范](skills/copyright-forge/references/15-backend-diagrams-and-traceability.md)。该工具需要本机安装 Graphviz 的 `dot` 命令。
+
 ## 本地开发与测试
 
 ```bash

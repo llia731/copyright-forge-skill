@@ -26,7 +26,7 @@ make the user name a mode or know internal files.
 
 Always read `references/quality-guardrails.md`.
 For any generation, revision, correction, or review of Chinese-facing materials, always read `references/13-writing-style.md` and apply it during drafting and final content review.
-For creation and filing review, also read `references/14-submission-readiness.md`; distinguish statutory filing materials from optional engineering validation. Do not ask for production data or production deployment by default. Never equate an old source snapshot with the current product version.
+For back-end, API, SDK, and algorithm-service documentation, also read `references/15-backend-diagrams-and-traceability.md`; generate diagrams using deterministic tooling, not image-generation models.\nFor creation and filing review, also read `references/14-submission-readiness.md`; distinguish statutory filing materials from optional engineering validation. Do not ask for production data or production deployment by default. Never equate an old source snapshot with the current product version.
 Always read `prompts/shared/guardrails.md` and
 `prompts/shared/user-communication.md`. Read the mode-specific files only for
 the selected route. `references/official/source-registry.yaml` is the source
